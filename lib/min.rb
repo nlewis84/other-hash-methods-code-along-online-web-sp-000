@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  small_foods = ""
+  small_foods = []
   #code your solution here!
   groceries.each do |food_group, foods|
     small_foods << foods.min
