@@ -13,6 +13,7 @@ def get_the_values(groceries)
   values = []
   groceries.each do |groups, foods|
     values << groceries.values
+    binding.pry
   end
   values.flatten
 end
