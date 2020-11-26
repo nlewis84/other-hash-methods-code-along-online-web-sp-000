@@ -10,10 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  values = []
-  groceries.each do |groups, foods|
-    values << groceries.values
-    binding.pry
-  end
-  values.flatten
+  groceries.values
 end
