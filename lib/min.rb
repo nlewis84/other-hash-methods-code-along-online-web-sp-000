@@ -12,6 +12,7 @@ def get_the_min(groceries)
   #code your solution here!
   groceries.each do |food_group, foods|
     foods.min
+    binding.pry
   end
 
 
