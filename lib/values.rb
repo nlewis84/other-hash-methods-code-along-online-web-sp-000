@@ -14,5 +14,5 @@ def get_the_values(groceries)
   groceries.each do |groups, foods|
     values << groceries.values
   end
-  values
+  values.flatten
 end
