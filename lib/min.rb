@@ -16,6 +16,4 @@ def get_the_min(groceries)
     binding.pry
   end
   small_foods.min
-
-
 end
